@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Store</title>
+
+    <!-- Link to external CSS stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Link to external JavaScript file (deferred to load after HTML) -->
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- -------------------- HEADER -------------------- -->
+    <!-- Page title displayed at the top -->
+    <header>
+      <h1>Recipe Store</h1>
+    </header>
+
+    <!-- -------------------- MAIN CONTENT -------------------- -->
+    <main>
+      <!-- -------------------- MAIN CATEGORIES -------------------- -->
+      <!-- Categories fetched from database are displayed here as clickable buttons -->
+      <section id="categories"></section>
+
+      <!-- -------------------- ADD / REMOVE CATEGORY BUTTONS -------------------- -->
+      <div>
+        <!-- Load hidden categories to add -->
+        <button onclick="loadHiddenCategories()">Add</button>
+
+        <!-- Show categories that can be removed -->
+        <button id="removebt">Remove</button>
+      </div>
+
+      <!-- -------------------- HIDDEN / REMOVE CATEGORIES SECTIONS -------------------- -->
+      <!-- Hidden categories to select for adding -->
+      <section id="hiddencategories" style="display: none"></section>
+
+      <!-- Categories available to remove -->
+      <section id="remove" style="display: none"></section>
+
+      <!-- -------------------- MEALS -------------------- -->
+      <!-- Meals fetched from external API based on selected category will appear here -->
+      <section id="meals"></section>
+
+      <!-- -------------------- RECIPE -------------------- -->
+      <!-- Selected meal recipe (ingredients + instructions) will appear here -->
+      <section id="recipe"></section>
+    </main>
+  </body>
+</html>

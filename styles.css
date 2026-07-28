@@ -1,0 +1,134 @@
+/* -------------------- GENERAL -------------------- */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fefefe;
+}
+
+header {
+  background-color: #ff7f50;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: x-large;
+}
+
+main {
+  padding: 1rem;
+}
+
+/* -------------------- CATEGORIES -------------------- */
+#categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+#categories p {
+  background-color: #ffdab9;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0;
+  transition: background-color 0.2s;
+}
+
+#categories p:hover {
+  background-color: #ffa07a;
+}
+
+/* -------------------- HIDDEN / REMOVE CATEGORIES -------------------- */
+#hiddencategories,
+#remove {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+#hiddencategories div,
+#remove div {
+  margin-bottom: 5px;
+}
+
+/* -------------------- MEALS -------------------- */
+#meals {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 1rem;
+}
+
+.meal-item {
+  flex: 1 1 150px;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+  background-color: #fffaf0;
+}
+
+.meal-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.meal-item img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+
+/* -------------------- RECIPE -------------------- */
+#recipe {
+  background-color: #fff5ee;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-top: 1rem;
+}
+
+#recipe h3 {
+  margin-top: 0;
+}
+
+#recipe ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+#recipe p {
+  line-height: 1.5;
+}
+
+/* -------------------- BUTTONS -------------------- */
+button {
+  background-color: #ff7f50;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #ff6347;
+}
+
+/* -------------------- RESPONSIVE -------------------- */
+@media (max-width: 600px) {
+  #categories,
+  #meals {
+    flex-direction: column;
+  }
+
+  .meal-item {
+    width: 100%;
+  }
+}
