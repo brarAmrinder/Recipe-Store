@@ -164,24 +164,32 @@ User opens website -> Load selected categories -> PHP -> MySQL Database -> Displ
 
 ## Screenshots
 
-* Home page
-
-<img width="1470" height="956" alt="Main" src="https://github.com/user-attachments/assets/23d4e66e-3e07-4743-8dbe-4cec0c0b4779" />
+**Home page 
 
 
-* Adding Categories
-
-<img width="1470" height="956" alt="Adding Categories" src="https://github.com/user-attachments/assets/9ae23c9a-222d-429e-801e-57abd2f2870d" />
+<img width="1470" height="956" alt="Main" src="https://github.com/user-attachments/assets/07dd29e3-f6f9-4504-8cca-d03a8113f5ce" />
 
 
-* Removing Categories
 
-<img width="1470" height="956" alt="removing categories" src="https://github.com/user-attachments/assets/1bab2f73-0168-4a85-9f91-6151e0b4d438" />
+**Adding Categories 
 
 
-* Recipe details
+<img width="1470" height="956" alt="Adding Categories" src="https://github.com/user-attachments/assets/2c5ca9bc-f94c-4989-9d15-e63cf86535bf" />
 
-<img width="1450" height="868" alt="recipe" src="https://github.com/user-attachments/assets/6b71748e-512e-4a25-a1c7-c1a82625a81c" />
+
+
+**Removing Categories 
+
+
+<img width="1470" height="956" alt="removing categories" src="https://github.com/user-attachments/assets/c153de7f-051c-4b29-980b-86f8f332d4d2" />
+
+
+
+**Recipe details
+
+
+<img width="1450" height="868" alt="recipe" src="https://github.com/user-attachments/assets/61a745db-2c93-44da-ac7d-2f0ca522e3a5" />
+
 
 **For full implementation, please follow the installation process 
 ---
